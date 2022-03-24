@@ -13,6 +13,14 @@
            <maven.compiler.source>1.6</maven.compiler.source>
            <maven.compiler.target>1.6</maven.compiler.target>
      </properties>
+    
+    <distributionManagement>
+    <snapshotRepository>
+      <id>nexus</id>
+      <name>snapshots</name>
+      <url>https://nexus.int.ocp.prod.lafargeholcim-go.com/repository/test-borrar/</url>
+    </snapshotRepository>
+    </distributionManagement>
 
       <dependencies>
            <dependency>
